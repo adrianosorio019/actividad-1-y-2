@@ -1,59 +1,46 @@
 body {
-    margin: 0; 
-    padding: 0; 
+    margin: 0px;
+    padding: 0px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh; 
-    background-color: rgb(red, green, blue);
+    font-family: Cursive;
+      }
+
+.container{
+    border: 10px solid black ;
+    border-radius: 10%;
+    padding: 40px 40px 40px 40px;
+    background-color: rgba(64, 199, 199, 0.295) ;
+
 }
 
-.container {
+#birthdayTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding:10px 10px 10px 10px;
+    color: rgb(83, 173, 224);
+
+      }
+#congratulations {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: palevioletred;
     text-align: center;
-    border: 10px solid #333;
-    border-radius: 5%;
-    padding: 50px 50px 50px 50px;
-    background: rgba(0,0,0, 0.3);
-    
-    }
-
-  h2 {
-    margin-bottom: 36px;
-    color: rgba(17, 91, 165, 0.467);
-  }
-
-  label{
-    color:#0a0a0a
-    
-  }
-
-
-  #employeeName {
-    padding: 10px;
-  }
-  #employeeTable {
-    display: none;
-    margin: 50px auto;
-  }
-
-  button {
-    padding: 2px;
-    background-color: #ffffff;
-    border-color: #0a0a0a;
-    border-radius: 10%;
-    color:#c92828
-    
-  }
-
-  table {
-    border-collapse: collapse;
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  th,td {
-    border: 3px solid #e9ecef;
+      }
+#allEmployeesTitle{
+    font-size: 15px;
     text-align: center;
-    padding: 10px;
-  }
+    color: rgb(255, 106, 131);
+}
+
+#employeeList {
+    list-style-type: none;
+    padding: 0px;
+      }
+.employee {
+    margin-bottom: 5px;
+      }
+      
